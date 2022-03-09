@@ -30,7 +30,7 @@ WHERE Color IS NOT NULL
 --7
 SELECT 'NAME: ' + Name + ' -- COLOR: ' + Color
 FROM Production.Product
-WHERE Color IN('Black', 'Silver')
+WHERE Color IS NOT NULL
 
 --8
 SELECT ProductID, Name
